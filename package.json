@@ -1,24 +1,28 @@
 {
-    "name": "@bradgarropy/node-library-starter",
-    "version": "1.2.2",
-    "description": "🟢 node library starter",
+    "name": "@wizzymore/http",
+    "version": "1.0.0",
+    "description": "http request library",
     "keywords": [
         "node",
         "typescript",
         "eslint",
         "prettier",
         "jest",
-        "starter"
+        "http",
+        "fetch",
+        "node-fetch",
+        "axios",
+        "ajax"
     ],
-    "homepage": "https://github.com/bradgarropy/node-library-starter",
+    "homepage": "https://github.com/wizzymore/http",
     "bugs": {
-        "url": "https://github.com/bradgarropy/node-library-starter/issues"
+        "url": "https://github.com/wizzymore/http/issues"
     },
     "license": "MIT",
     "author": {
-        "name": "Brad Garropy",
-        "email": "bradgarropy@gmail.com",
-        "url": "https://bradgarropy.com"
+        "name": "Cristian Bilu",
+        "email": "bilucristian25@gmail.com",
+        "url": "https://eptic.ro"
     },
     "files": [
         "dist"
@@ -27,7 +31,7 @@
     "types": "dist/types/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bradgarropy/node-library-starter"
+        "url": "https://github.com/wizzymore/http"
     },
     "scripts": {
         "start": "tsc --watch",
@@ -52,6 +56,7 @@
         "@typescript-eslint/parser": "^4.14.2",
         "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
+        "cross-fetch": "^3.1.4",
         "eslint": "^7.19.0",
         "eslint-config-prettier": "^7.1.0",
         "eslint-plugin-simple-import-sort": "^7.0.0",
