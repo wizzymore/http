@@ -167,13 +167,13 @@ post("https://jsonplaceholder.typicode.com/posts/1", {
 [version-badge]: https://img.shields.io/npm/v/@wizzymore/http.svg?style=flat-square
 [downloads-badge]: https://img.shields.io/npm/dt/@wizzymore/http?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
-[contributors-badge]: https://img.shields.io/github/all-contributors/wizymore/http?style=flat-square
+[contributors-badge]: https://img.shields.io/github/all-contributors/wizzymore/http?style=flat-square
 [issues]: https://github.com/wizzymore/http/issues
 [bundlephobia]: https://bundlephobia.com/result?p=@wizzymore/http
 [size-badge]: https://img.shields.io/bundlephobia/minzip/@wizzymore/http?style=flat-square
 [github-actions]: https://github.com/wizzymore/http/actions
 [github-actions-badge]: https://img.shields.io/github/workflow/status/wizzymore/http/%F0%9F%9A%80%20release?style=flat-square
-[typescript]: https://www.typescriptlang.org/dt/search?search=%40wizymore%2Fhttp
-[typescript-badge]: https://img.shields.io/npm/types/@wizymore/http?style=flat-square
+[typescript]: https://www.typescriptlang.org/dt/search?search=%40wizzymore%2Fhttp
+[typescript-badge]: https://img.shields.io/npm/types/@wizzymore/http?style=flat-square
 [axios]: https://github.com/axios/axios
 [bradgarropy/http]: https://github.com/bradgarropy/http
