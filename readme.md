@@ -18,7 +18,7 @@ Most of the time, `fetch` is used to interact with a JSON API. This library is a
 This package is hosted on [npm][npm].
 
 ```bash
-npm install @wizzymore/http
+npm install @eptic/http
 ```
 
 ## 🥑 Usage
@@ -162,18 +162,18 @@ post("https://jsonplaceholder.typicode.com/posts/1", {
 [codecov]: https://app.codecov.io/gh/wizzymore/http
 [contributing]: https://github.com/wizzymore/http/blob/master/contributing.md
 [contributors]: #-contributors
-[npm]: https://www.npmjs.com/package/@wizzymore/http
+[npm]: https://www.npmjs.com/package/@eptic/http
 [codecov-badge]: https://img.shields.io/codecov/c/github/wizzymore/http?style=flat-square
-[version-badge]: https://img.shields.io/npm/v/@wizzymore/http.svg?style=flat-square
-[downloads-badge]: https://img.shields.io/npm/dt/@wizzymore/http?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/@eptic/http.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dt/@eptic/http?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/wizzymore/http?style=flat-square
 [issues]: https://github.com/wizzymore/http/issues
-[bundlephobia]: https://bundlephobia.com/result?p=@wizzymore/http
-[size-badge]: https://img.shields.io/bundlephobia/minzip/@wizzymore/http?style=flat-square
+[bundlephobia]: https://bundlephobia.com/result?p=@eptic/http
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@eptic/http?style=flat-square
 [github-actions]: https://github.com/wizzymore/http/actions
 [github-actions-badge]: https://img.shields.io/github/workflow/status/wizzymore/http/%F0%9F%9A%80%20release?style=flat-square
 [typescript]: https://www.typescriptlang.org/dt/search?search=%40wizzymore%2Fhttp
-[typescript-badge]: https://img.shields.io/npm/types/@wizzymore/http?style=flat-square
+[typescript-badge]: https://img.shields.io/npm/types/@eptic/http?style=flat-square
 [axios]: https://github.com/axios/axios
 [bradgarropy/http]: https://github.com/bradgarropy/http
