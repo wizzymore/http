@@ -1,5 +1,5 @@
 {
-    "name": "@eptic/http",
+    "name": "@wizzymore/http",
     "version": "1.0.0",
     "description": "http request library",
     "keywords": [
