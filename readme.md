@@ -8,6 +8,7 @@
 [![typescript][typescript-badge]][typescript]
 [![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
+[![CodeFactor][codefactor-badge]][codefactor]
 
 _http request library heavily inspired by [axios][axios] and [bradgarropy/http][bradgarropy/http]_
 
@@ -177,3 +178,5 @@ post("https://jsonplaceholder.typicode.com/posts/1", {
 [typescript-badge]: https://img.shields.io/npm/types/@eptic/http?style=flat-square
 [axios]: https://github.com/axios/axios
 [bradgarropy/http]: https://github.com/bradgarropy/http
+[codefactor-badge]: https://www.codefactor.io/repository/github/wizzymore/http/badge
+[codefactor]: https://www.codefactor.io/repository/github/wizzymore/http
