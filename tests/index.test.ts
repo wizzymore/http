@@ -50,8 +50,9 @@ describe("http | get()", () => {
     test("get error handling", async done => {
         try {
             await get("invalid.url")
-        } catch(error) {
-            done(error)
+            done("Errors are not returning properly")
+        } catch (error) {
+            done()
         }
     })
 })
@@ -72,10 +73,11 @@ describe("http | post()", () => {
     })
 
     test("post error handling", async done => {
-        try{
+        try {
             await post("invalid.url")
-        } catch(error) {
-            done(error)
+            done("Errors are not returning properly")
+        } catch (error) {
+            done()
         }
     })
 })
