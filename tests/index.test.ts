@@ -47,9 +47,12 @@ describe("http | get()", () => {
         expect(response).toEqual([mock[1]])
     })
 
-    test("get error handling", async () => {
-        const error = await get("invalid.url").catch(err => err)
-        expect(error).toBeTruthy()
+    test("get error handling", async done => {
+        try {
+            await get("invalid.url").catch(err => err)
+        } catch(error) {
+            done(error)
+        }
     })
 })
 
@@ -68,9 +71,12 @@ describe("http | post()", () => {
         expect(response).toEqual(mockData)
     })
 
-    test("post error handling", async () => {
-        const error = await post("invalid.url").catch(err => err)
-        expect(error).toBeTruthy()
+    test("post error handling", async done => {
+        try{
+            await post("invalid.url").catch(err => err)
+        } catch(error) {
+            done(error)
+        }
     })
 })
 
