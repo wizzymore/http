@@ -7,7 +7,6 @@
 [![coverage][codecov-badge]][codecov]
 [![typescript][typescript-badge]][typescript]
 [![contributing][contributing-badge]][contributing]
-[![contributors][contributors-badge]][contributors]
 [![CodeFactor][codefactor-badge]][codefactor]
 
 _http request library heavily inspired by [axios][axios] and [bradgarropy/http][bradgarropy/http]_
