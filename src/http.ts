@@ -23,26 +23,21 @@ interface IRequest {
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const get = async (url: string, options: IRequest = {}): Promise<any> => {
-    // eslint-disable-next-line no-useless-catch
-    try {
-        url = formatURL(url, options?.params)
-        const req = new Request(url)
+    url = formatURL(url, options?.params)
+    const req = new Request(url)
 
-        options.headers = {
-            "content-type": "application/json",
-            ...options?.headers,
-        }
-
-        const response = await fetch(req, {
-            method: "GET",
-            ...options,
-        })
-
-        const json = await response.json()
-        return json
-    } catch (error) {
-        throw error
+    options.headers = {
+        "content-type": "application/json",
+        ...options?.headers,
     }
+
+    const response = await fetch(req, {
+        method: "GET",
+        ...options,
+    })
+
+    const json = await response.json()
+    return json
 }
 
 interface IRequestPost {
@@ -55,30 +50,25 @@ const post = async (
     url: string,
     options: IRequest & IRequestPost = {},
 ): Promise<any> => {
-    // eslint-disable-next-line no-useless-catch
-    try {
-        url = formatURL(url, options?.params)
-        const req = new Request(url)
+    url = formatURL(url, options?.params)
+    const req = new Request(url)
 
-        options.headers = {
-            "content-type": "application/json",
-            ...options?.headers,
-        }
-
-        if (!options.method) {
-            options.method = "POST"
-        }
-
-        const response = await fetch(req, {
-            ...options,
-            body: JSON.stringify(options?.body),
-        })
-
-        const json = await response.json()
-        return json
-    } catch (error) {
-        return error
+    options.headers = {
+        "content-type": "application/json",
+        ...options?.headers,
     }
+
+    if (!options.method) {
+        options.method = "POST"
+    }
+
+    const response = await fetch(req, {
+        ...options,
+        body: JSON.stringify(options?.body),
+    })
+
+    const json = await response.json()
+    return json
 }
 
 export {get, post}
